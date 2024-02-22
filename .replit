@@ -1,0 +1,10 @@
+# run = "cowsay Configure me!"
+
+# [nix]
+# channel = "stable-23_11"
+
+# [deployment]
+# run = ["sh", "-c", "cowsay Configure me!"]
+language = "python3"
+run = "python app.py"
+modules = ["python-3.10:v25-20230920-d4ad2e4"]
