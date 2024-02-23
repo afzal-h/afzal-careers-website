@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS jobs (
+    id INTEGER PRIMARY KEY,
+    role TEXT NOT NULL,
+    location TEXT NOT NULL,
+    salary TEXT
+)
+
+INSERT INTO jobs (role, location, salary) VALUES 
+('Software Engineer', 'San Francisco, USA', '$150,000'),
+('Data Analyst', 'New York, USA', '$120,000'),
+('UX Designer', 'London, UK', '£70,000')
